@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet"  href="BookShelfStyles.css">
+        <script src="BookShelfscript.js" type="module" ></script> 
+    
+    </head>
+    <body>
+        <h1 class="heading">Book shelf</h1>
+        <h3>Currently Reading</h3>
+        <div class="Currently-reading" id="currently-reading-container">
+        </div>
+        <h3>Want to Read</h3>
+        <div class="Want-to-read" id="want-to-read-container">
+        </div>
+        <h3>Read</h3>
+        <div class="read" id="read-container">
+        </div>
+        <template id="data-books-template">
+            <div class="card" class="card"> 
+                <img  id="data-image" class="image"
+>                  <div class="title" id="data-title"></div>
+                    <div class="author" id="data-author"></div>
+                    <select class="select">
+                        <option value="Move to">Move to...</option>
+                        <option value="Currently reading" >Currently Reading</option>
+                        <option value="Want to read">Want to Read</option>
+                        <option value="Read">Read</option>
+                        <option value="None">None</option>
+                    </select>
+                </div>
+            </template>
+           <button class="back-button" onclick="location.href='index.html';" >Go Back</button>
+    </template> 
+    </body>
+</html>

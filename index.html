@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Book Shelf</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <form>
+                <input type="text" id="search-box" class="searchbox" placeholder="What are you looking for?">
+                <button type="submit"id ="search">Search</button>
+                <span class="span">
+                    <input class="span-button" type="button" class="bookshelf" id="book-shelf" onclick="location.href='bookShelf.html';"
+                     value="Go to BookShelf Page" />
+                </span>
+            </form>
+        </div>
+        <div class="book-cards" id="data-books-cards-container"></div>
+            <template id="data-books-template">
+            <div class="card" class="card"> 
+                <img  id="data-image" class="image"
+>                  <div class="title" id="data-title"></div>
+                    <div class="author" id="data-author"></div>
+                    <select class="select">
+                        <option value="Move to">Move to...</option>
+                        <option value="Currently reading" >Currently Reading</option>
+                        <option value="Want to read">Want to Read</option>
+                        <option value="Read">Read</option>
+                        <option varsha="None">None</option>
+                    </select>
+                </div>
+            </template>
+        <script src="script.js" type="module"></script>
+    </body>
+</html>

@@ -1,0 +1,74 @@
+.heading{
+    justify-content: center;
+    align-items: center;
+    /* margin-left: 50%; */
+}
+.Currently-reading{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+    gap:0.5rem ;
+    margin-top: 1rem;
+    border:1px solid black;
+    padding:0.2rem;
+    border: none !important;
+}
+.Want-to-read{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+    gap:0.5rem ;
+    margin-top: 1rem;
+    border:1px solid black;
+    padding:0.2rem;
+    border: none !important;
+}
+.read{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+    gap:0.5rem ;
+    margin-top: 1rem;
+    border:1px solid black;
+    padding:0.2rem;
+    border: none !important;
+}
+.image{
+    width:100px;
+    height:150px;
+}
+book-cards{
+    display:grid;
+    grid-template-columns: repeat(auto-fill,minmax(150px,1fr));
+    gap:0.5rem ;
+    margin-top: 1rem;
+}
+.card{
+    border:1px solid black;
+    padding:0.5rem; 
+    margin-left: 10px;  
+}
+.card >.title{
+    margin-bottom: 0.25rem;
+}
+.card >.author{
+    font-size:0.8rem;
+}
+.hide{
+    display:none;
+}
+.select{
+    width:70%;
+    background-color: green;
+    color:white;
+}
+.book-shelf{
+    margin-left: 100px;
+}
+.back-button{
+    background-color: green;
+    color:white;
+    margin-top: 50px;
+    margin-left: 70%;
+    width: 20%;
+    height:30px;
+    /* border-radius: 10px; */
+    border:none;
+}
